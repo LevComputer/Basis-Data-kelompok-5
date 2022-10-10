@@ -1,0 +1,24 @@
+-- Membuat Database
+CREATE DATABASE kelompok5;
+USE kelompok5;
+
+
+
+-- DDL (DATA DEFINITION LANGUAGE)
+
+-- membuat tabel student_info
+CREATE TABLE student_info (
+student_id INT NOT NULL AUTO_INCREMENT,
+full_name VARCHAR(255) NOT NULL,
+Address VARCHAR(255) NOT NULL,
+major VARCHAR(255) NOT NULL,
+PRIMARY KEY (student_id)
+);
+
+-- membuat tabel
+CREATE TABLE courses (
+course_id INT NOT NULL AUTO_INCREMENT,
+course_name VARCHAR(255) NOT NULL,
+duration INT NOT NULL,
+PRIMARY KEY (course_id)
+);
